@@ -7,7 +7,7 @@ $answer;
 if ($homelessmoney >= 119) { 
     $homelessmoney - 119;
     $answer = "Děkujeme za váš nákup";
-    
+}   
 else {
     $answer = "Nemáte peníze na vodku";
 }   
