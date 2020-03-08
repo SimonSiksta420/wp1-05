@@ -1,4 +1,5 @@
 <?php
+$homelessmoney1 = 25;
 $homelessmoney = 25 + 17 + 40 + 100 - 50;
 $vodkaprice = 119;
 $answer;
@@ -21,12 +22,12 @@ else {
     <title>Document</title>
 </head>
 <body>
-<br> Peníze bezdomovce před návštěvou večerky <?= $homelessmoney; ?> <br>
-<br> Cena vodky <?= $vodkaprice; ?> <br>
+<p> Peníze bezdomovce před návštěvou večerky <?= $homelessmoney1; ?> <p>
+<p> Cena vodky <?= $vodkaprice; ?> <p>
 
 <?= $answer; ?>
 
-<br> Peníze po návštěvě večerky <?= $homelessmoney ?>  <br>
+<p> Peníze po návštěvě večerky <?= $homelessmoney ?>  <p>
 
 </body>
 </html>
