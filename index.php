@@ -10,7 +10,7 @@ if ($homelessmoney >= 119) {
     
 else {
     $answer = "Nemáte peníze na vodku";
-    
+}   
 ?>
 
 
@@ -22,7 +22,6 @@ else {
     <title>Document</title>
 </head>
 <body>
-<?= $homelessmoney; + 17 + 40 + 100 - 50 ?>
 <br> Peníze bezdomovce před návštěvou večerky <?= $homelessmoney; ?> <br>
 <br> Cena vodky <?= $vodkaprice; ?> </br>
 
