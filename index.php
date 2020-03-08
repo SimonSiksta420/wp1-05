@@ -5,7 +5,7 @@ $homelessmoney + 17 + 40 + 100 - 50;
 $answer
 
 if ($homelessmoney >= 119) { 
-    $homelessmoney - 119
+    $homelessmoney - 119;
     $answer = "Děkujeme za váš nákup";
     
 else {
