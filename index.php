@@ -1,6 +1,6 @@
 <?php
-$homelessmoney; = 25
-$vodkaprice; = 19
+$homelessmoney = 25;
+$vodkaprice = 19;
 ?>
 
 
