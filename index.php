@@ -3,8 +3,7 @@ $homelessmoney = 25;
 $vodkaprice = 19;
 $answer
 
-
-if ($homelessmoney >= 119) {
+if ($homelessmoney > 119) {
     $homelessmoney - 119
     $answer = "Děkujeme za váš nákup";
 }
