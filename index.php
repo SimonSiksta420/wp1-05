@@ -1,6 +1,5 @@
 <?php
-$homelessmoney = 25;
-$homelessmoney + 17 + 40 + 100 - 50;
+$homelessmoney = 25 + 17 + 40 + 100 - 50;
 $vodkaprice = 119;
 $answer;
 
