@@ -2,7 +2,7 @@
 $homelessmoney = 25;
 $vodkaprice = 119;
 $homelessmoney + 17 + 40 + 100 - 50;
-$answer
+$answer;
 
 if ($homelessmoney >= 119) { 
     $homelessmoney - 119;
