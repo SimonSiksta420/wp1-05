@@ -5,10 +5,10 @@ $vodkaprice = 19;
 
 if ($homelessmoney >= 119) {
     $homelessmoney - 119
-    $odpověď = "Děkujeme za váš nákup";
+    $odpoved = "Děkujeme za váš nákup";
 }
 else {
-    $odpověď = "Nemáte peníze na vodku nashledanou";
+    $odpoved = "Nemáte peníze na vodku nashledanou";
 }
 ?>
 
@@ -27,7 +27,7 @@ else {
 <br> Peníze bezdomovce před návštěvou večerky <?= $homelessmoney; ?> <br>
 <br> Cena vodky <?= $vodkaprice; ?> </br>
 
-<?= $odpověď; ?>
+<?= $odpoved; ?>
 
 <br> Peníze po návštěvě večerky <?= $homelessmoney ?>  </br>
 
