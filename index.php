@@ -20,19 +20,19 @@ $answer;
 
 <?php
 if ($homelessmoney >= $vodkapricecigaretteprice) {
-    $homelessmoney = $homelessmoney - $vodkapricecigaretteprice
-    $answer = "Děkujeme za váš nákup"
+    $homelessmoney = $homelessmoney - $vodkapricecigaretteprice;
+    $answer = "Děkujeme za váš nákup";
 }
 elseif ($homelessmoney < $vodkapricecigaretteprice ) {
-    $answer = "Nemáte peníze na vodku a cigarety"
+    $answer = "Nemáte peníze na vodku a cigarety";
 }
 elseif ($homelessmoney => $vodkaprice) {
-    $homelessmoney = $homelessmoney - $vodkaprice
-    $answer = "Vodka zakoupena ale nemáte peníze na cigarety"    
+    $homelessmoney = $homelessmoney - $vodkaprice;
+    $answer = "Vodka zakoupena ale nemáte peníze na cigarety";   
 }
 elseif ($homelessmoney => $cigaretteprice ) {
-    $homelessmoney = $homelessmoney - $cigaretteprice
-    $answer = "Cigarety zakoupeny ale nemáte peníze na vodku"
+    $homelessmoney = $homelessmoney - $cigaretteprice;
+    $answer = "Cigarety zakoupeny ale nemáte peníze na vodku";
 }
 
 ?>
