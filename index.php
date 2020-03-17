@@ -21,7 +21,7 @@ $answer;
 <?php
 if ($homelessmoney >= $vodkapricecigaretteprice) {
     $homelessmoney = $homelessmoney - $vodkapricecigaretteprice
-    $answer = "Děkujeme za váš nákup"
+    $answer = "Děkujeme za váš nákup";
   
 elseif ($homelessmoney < $vodkapricecigaretteprice ) {
     $answer = "Nemáte peníze na vodku a cigarety"
