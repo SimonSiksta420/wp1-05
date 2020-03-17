@@ -26,11 +26,11 @@ if ($homelessmoney >= $vodkapricecigaretteprice) {
 elseif ($homelessmoney < $vodkapricecigaretteprice ) {
     $answer = "Nemáte peníze na vodku a cigarety";
 }
-elseif ($homelessmoney => $vodkaprice) {
+elseif ($homelessmoney >= $vodkaprice) {
     $homelessmoney = $homelessmoney - $vodkaprice;
     $answer = "Vodka zakoupena ale nemáte peníze na cigarety";   
 }
-elseif ($homelessmoney => $cigaretteprice ) {
+elseif ($homelessmoney >= $cigaretteprice ) {
     $homelessmoney = $homelessmoney - $cigaretteprice;
     $answer = "Cigarety zakoupeny ale nemáte peníze na vodku";
 }
