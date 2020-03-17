@@ -1,16 +1,28 @@
 <?php
 $homelessmoney1 = 132;
-$homelessmoney = 25 + 17 + 40 + 100 - 50;
+$homelessmoney = 25 + 17 + 40 + 100 - 50 + 100;
 $vodkaprice = 119;
+$cigaretteprice = 50;
+$vodkapricecigaretteprice = 169;
 $answer;
 
-if ($homelessmoney >= 119) { 
-    $homelessmoney = $homelessmoney - 119;
-    $answer = "Děkujeme za váš nákup";
-}   
-else {
-    $answer = "Nemáte peníze na vodku";
-}   
+if ($homelessmoney >= $vodkapricecigaretteprice) {
+    $homelessmoney = $homelessmoney - $vodkapricecigaretteprice
+    $answer = "Děkujeme za váš nákup"
+  
+elseif ($homelessmoney < $vodkapricecigaretteprice ) {
+    $answer = "Nemáte peníze na vodku a cigarety"
+}
+elseif ($homelessmoney => $vodkaprice) {
+    $homelessmoney = $homelessmoney - $vodkaprice
+    $answer = "Vodka zakoupena ale nemáte peníze na cigarety"    
+}
+elseif ($homelessmoney => $cigaretteprice ) {
+    $homelessmoney = $homelessmoney - $cigaretteprice
+    $answer = "Cigarety zakoupeny ale nemáte peníze na vodku"
+}
+
+}
 ?>
 
 
@@ -24,6 +36,7 @@ else {
 <body>
 <p> Peníze bezdomovce před návštěvou večerky <?= $homelessmoney1; ?> <p>
 <p> Cena vodky <?= $vodkaprice; ?> <p>
+<p> Cena Cigaret <?= $cigaretteprice; ?> <p>
 
 <?= $answer; ?>
 
